@@ -12,17 +12,33 @@ MAX31725	KEYWORD1
 # Methods and Functions (KEYWORD2)
 #######################################
 
+read_temperature	KEYWORD2
+read_thyst	KEYWORD2
+read_tos	KEYWORD2
+write_thyst	KEYWORD2
+write_tos	KEYWORD2
+get_config	KEYWORD2
+print_config	KEYWORD2
+write_config	KEYWORD2
+getConfig_OneShot	KEYWORD2
+setConfig_OneShot	KEYWORD2
+getConfig_Timeout	KEYWORD2
+setConfig_Timeout	KEYWORD2
+getConfig_ExtendedDataFormat	KEYWORD2
+setConfig_ExtendedDataFormat	KEYWORD2
+getConfig_FaultsQueue	KEYWORD2
+setConfig_FaultsQueue	KEYWORD2
+getConfig_OSPolarity	KEYWORD2
+setConfig_OSPolarity	KEYWORD2
+getConfig_InterruptMode	KEYWORD2
+setConfig_InterruptMode	KEYWORD2
+getConfig_ShutdownMode	KEYWORD2
+setConfig_ShutdownMode	KEYWORD2
 
 ######################################
 # Constants (LITERAL1)
 #######################################
 
-NUMBER_OF_FAULTS_1	LITERAL1
-NUMBER_OF_FAULTS_2	LITERAL1
-NUMBER_OF_FAULTS_4	LITERAL1
-NUMBER_OF_FAULTS_6	LITERAL1
-OS_POLARITY_ACTIVELOW	LITERAL1
-OS_POLARITY_ACTIVEHIGH	LITERAL1
-DEVICE_MODE_COMPARATOR	LITERAL1
-DEVICE_MODE_INTERRUPT	LITERAL1
-
+_i2cAddress	LITERAL1
+sdapin	LITERAL1
+sclpin	LITERAL1

@@ -50,7 +50,7 @@ float MAX31725::read_thyst(){
 }
 
 // Funktion 3 für TOS in Grad Celsius lesen  
-float MAX31725::(){
+float MAX31725::read_tos(){
   Wire.beginTransmission(_i2cAddress);   
   Wire.write(0x03);             
   Wire.endTransmission();        
@@ -64,7 +64,7 @@ float MAX31725::(){
   tos = t * 0.00390625;      
   return tos;
 }
-read_tos
+
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 //
