@@ -1,5 +1,5 @@
 //LibTest.ino
-#include "MAX31725.h"
+#include "LTS01A_MAX31725.h"
 
 const int sdapin = 23;  // default 21;
 const int sclpin = 19;  // default 22;
