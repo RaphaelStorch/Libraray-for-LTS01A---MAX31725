@@ -1,0 +1,28 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MAX31725	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+
+######################################
+# Constants (LITERAL1)
+#######################################
+
+NUMBER_OF_FAULTS_1	LITERAL1
+NUMBER_OF_FAULTS_2	LITERAL1
+NUMBER_OF_FAULTS_4	LITERAL1
+NUMBER_OF_FAULTS_6	LITERAL1
+OS_POLARITY_ACTIVELOW	LITERAL1
+OS_POLARITY_ACTIVEHIGH	LITERAL1
+DEVICE_MODE_COMPARATOR	LITERAL1
+DEVICE_MODE_INTERRUPT	LITERAL1
+
