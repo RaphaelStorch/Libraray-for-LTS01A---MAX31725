@@ -12,7 +12,7 @@
 class MAX31725
 {
 private:     
-    uint8_t _i2cAddress;
+    int _i2cAddress;
 
 public:
     // Konstruktor
